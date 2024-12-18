@@ -1,0 +1,81 @@
+sorting an array
+ initialize an array with intigers
+ declare an integer variable
+ for i<no:elements
+ 	for j = i + 1 j < no:elements
+ 		check if a[i] > a[j] true swap
+   
+ print array
+
+
+Find larget number
+ initialize array with integers
+ initialize integer max = 0
+ for i < no:elements
+ 	Check if a[i] > max true max = a[i]
+ print max
+
+Check for palindrome
+
+ initialize a string
+ declare n as length of string
+ initalize flag as true
+ for i = 0 , j = n - 1, i < n/2,j > n/2 :
+	 check if a[i] == a[j] : true do nothing
+	 else set flag = false break
+ check if flag is true : print pallindrome
+ else print not a pallindrome
+
+
+Prime number
+
+ decare an integer n
+ initialize flag as true
+ check if n == 1 : true not prime 
+ else check if n == 2 : true prime
+ else for i = 2 , i <= n/2
+	 check if n % i == 0 : true flag = false break
+ check if flag is true : true print prime
+ else print not prime
+
+
+Fibonacci series
+
+ declare integer N
+ initialze a = 0 and b = 1
+ check if N == 1 : true print a
+ else if N == 2 : true print a,b
+ else print a,b
+	 for i = 0 , i < N - 2
+	 	 print a+b
+		 set b = a + b and a = b - a
+Bsic calculator
+
+ initialize integers a,b,c
+ print 1.Add 2.Subtract 3.Multiply 4.Divide
+ take input for a and b
+ take input from user to c
+ switch case for c where
+ 	case of 1 : print a + b
+ 	case of 2 : print a - b
+	case of 3 : print a * b
+	case of 4 : check if b != 0 : true print a/b
+		    else print division by zero not possible
+Factorial calculation
+
+ initialize an integer n
+ initialize an integer f = 0 
+ create an integer function fact with input p
+	check if p == 1 : true return 1
+	else  f = p * fact(p-1)
+ 	 return f
+ take input for n
+ call fact(n)   
+
+Count vowels
+ initialize string a 
+ initialize integer count = 0
+ for i < length of string 
+ 	check if a[i] == "a" || "e" || "i" || "o" || "u"
+		increment count
+print count
